@@ -113,61 +113,15 @@ PF% = (3.5 / 3.5) * 100
 PF% = 100%
 
 
-<style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    td {
-        padding: 8px;
-        text-align: left;
-    }
-    .principle-f {
-        background-color: #FFDDC1;
-    }
-    .principle-a {
-        background-color: #D1FFDD;
-    }
-    .principle-i {
-        background-color: #DDC1FF;
-    }
-    .principle-r {
-        background-color: #FFFFDD;
-    }
-</style>
+### Calculation:
 
-<table>
-    <tr>
-        <td class="principle-f">
-            <strong>Principle F</strong><br><br>
-            F = 1 + 0.75 + 1<br>
-            F = 2.75<br><br>
-            PF% = (2.75 / 3) * 100<br>
-            PF% ≅ 92%
-        </td>
-        <td class="principle-a">
-            <strong>Principle A</strong><br><br>
-            A = 1 + 1<br>
-            A = 2<br><br>
-            PF% = (2 / 2) * 100<br>
-            PF% = 100%
-        </td>
-        <td class="principle-i">
-            <strong>Principle I</strong><br><br>
-            I = 0 + 1 + 0.5 + 0.5 + 0.5<br>
-            I = 2.5<br><br>
-            PF% = (2.5 / 4.5) * 100<br>
-            PF% ≅ 55.5%
-        </td>
-        <td class="principle-r">
-            <strong>Principle R</strong><br><br>
-            R = 1 + 1 + 1 + 0.5<br>
-            R = 3.5<br><br>
-            PF% = (3.5 / 3.5) * 100<br>
-            PF% = 100%
-        </td>
-    </tr>
-</table>
+| Principle F | Principle A | Principle I | Principle R |
+|-------------|-------------|-------------|-------------|
+| **F = 1 + 0.75 + 1** | **A = 1 + 1** | **I = 0 + 1 + 0.5 + 0.5 + 0.5** | **R = 1 + 1 + 1 + 0.5** |
+| F = 2.75 | A = 2 | I = 2.5 | R = 3.5 |
+| PF% = (2.75 / 3) * 100 | PF% = (2 / 2) * 100 | PF% = (2.5 / 4.5) * 100 | PF% = (3.5 / 3.5) * 100 |
+| PF% ≅ 92% | PF% = 100% | PF% ≅ 55.5% | PF% = 100% |
+
 
 
 
