@@ -73,6 +73,7 @@ To validate the FAIR assessment proposed, we evaluated three metadata schemas: [
 Calculation:
 
 **Principle F**
+
 F = 1 + 0.75 + 1
 
 F = 2.75
