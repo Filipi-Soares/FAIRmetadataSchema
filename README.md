@@ -54,6 +54,23 @@ To validate the FAIR assessment proposed, we evaluated three metadata schemas: [
 
 ### FAIRness assessment of the Darwin Core schema
 
+| Ref. FAIR Principle | FAIR Principle | Concept present                                           | Concept absent                     | Score |
+|---------------------|----------------|-----------------------------------------------------------|------------------------------------|-------|
+| RF1                 | F              | Namespace (0.5); version unique identifier (0.5)          |                                    | 1     |
+| RF2                 | F              | Landing page (0.5); metadata record for humans (0.25)     | metadata record for machines (0.25)| 0.75  |
+| RF3                 | F              | Indexing in vocabulary catalog (1)                        |                                    | 1     |
+| RF4                 | A              | URLs use universally accessible protocols (1)             |                                    | 1     |
+| RF5                 | A              | Backup (1)                                                |                                    | 1     |
+| RF6                 | I              |                                                           | Machine-actionable serialization (1)| 0     |
+| RF7                 | I              | Schema Conceptual model (1)                               |                                    | 1     |
+| RF8                 | I              | Data Properties (0.5)                                     | Range and Domain (0.5)             | 0.5   |
+| RF9                 | I              | Object Properties (0.5)                                   | Range and Domain (0.5)             | 0.5   |
+| RF10                | R              | Term name (0.5); Definition (0.5)                         |                                    | 1     |
+| RF11                | R              | Open License (1)                                          |                                    | 1     |
+| RF12                | R              | Documentation of Modifications (1)                        |                                    | 1     |
+| RF13                | I (50%) R (50%)| Schema reuse (1)                                          |                                    | 1     |
+
+
 
 
 
