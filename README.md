@@ -119,7 +119,8 @@ Overall, the schema performed well in most aspects of FAIR, reflecting the inten
 | PF% = (3 / 3) * 100 | PF% = (2 / 2) * 100 | PF% = (4.5 / 4.5) * 100 | PF% = (3.5 / 3.5) * 100 |
 | PF% = 100% | PF% = 100% | PF% = 100% | PF% = 100% |
 
-![chart (2)](https://github.com/user-attachments/assets/04beb1b9-4309-4b24-b9aa-07da2411380d)
+![image](https://github.com/user-attachments/assets/5d34669e-39b1-4529-9bf8-c4cf1bab8ff9)
+
 
 ### Overall FAIR compliance score (OFC%): 
 
