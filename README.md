@@ -74,8 +74,11 @@ Calculation:
 
 **Principle F**
 F = 1 + 0.75 + 1
+
 F = 2.75
+
 PF% = (2.75 / 3) * 100
+
 PF% ≅ 92%
 
 
