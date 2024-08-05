@@ -124,11 +124,14 @@ Overall, the schema performed well in most aspects of FAIR, reflecting the inten
 
 ### Overall FAIR compliance score (OFC%): 
 
-OFC% = (92 + 100 + 55.5 + 100) / 4
+OFC% = (100 + 100 + 100 + 100) / 4
 
-OFC% ≅ 87%
+OFC% = 100%
 
 ### Comments:
+
+DCAT Version three is a 100% FAIR metadata schema. All the concepts included in this metrics have been found in the schema documentation. 
+
 
 
 
