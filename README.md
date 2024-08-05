@@ -52,6 +52,10 @@ The overall FAIR compliance score (OFC%) is the average of the fulfillment perce
 ## Validation
 To validate the FAIR assessment proposed, we evaluated three metadata schemas: [Darwin Core](https://dwc.tdwg.org/), [D-CAT](https://www.w3.org/ns/dcat#), and [Almes Core](https://w3id.org/AlmesCore/). 
 
+### FAIRness assessment of the Darwin Core schema
+
+
+
 
 
 
