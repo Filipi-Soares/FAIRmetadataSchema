@@ -25,4 +25,35 @@ The concepts from the conceptual model representing FAIR enabling resources (FER
 
 *Table 1A – Template for calculating the FAIRness level of the Almes Core schema.*
 
+Each component related to a principle was scored based on its presence (true) or absence (false). If a component is present, it contributes its full score; if absent, it contributes zero. For example, for Principle F (Findability):
+
+``RF1 = Namespace (0.5) (true) + version unique identifier (0.5) (true)``
+``RF1 = 0.5 + 0.5 = 1``
+
+``RF2 = Landing page (0.5) (true) + metadata record for humans (0.25) (true) + metadata record for machines (0.25) (true)``
+``RF2 = 0.5 + 0.25 + 0.25 = 1``
+
+``RF3 = Indexing in vocabulary catalog (1) (false) = 0``
+``RF3 = 0``
+
+The total score for each principle is the sum of its components' scores:
+
+``Total Score for F = RF1 + RF2 + RF3 = 1 + 1 + 0 = 2``
+
+
+The fulfillment percentage for each principle (PF%) is calculated by dividing the total score (TS) by the maximum possible score (MPS) for that principle, then multiplying by 100.
+
+\[
+\text{PF\%} = \left( \frac{\text{TS}}{\text{MPS}} \right) \times 100 = \left( \frac{2}{3} \right) \times 100 = 66.67\%
+\]
+
+The overall FAIR compliance score (OFC%) is the average of the fulfillment percentages of all principles. The overall FAIRness score of the Almes Score schema was 91.75%:
+
+\[
+\text{OFC\%} = \frac{67\% + 100\% + 100\% + 100\%}{4} = 91.75\%
+\]
+
+
+
+
 
