@@ -101,7 +101,7 @@ Overall, the schema performed well in most aspects of FAIR, reflecting the inten
 | RF3                 | F              | Indexing in vocabulary catalog (1)                        |                                    | 1     |
 | RF4                 | A              | URLs use universally accessible protocols (1)             |                                    | 1     |
 | RF5                 | A              | Backup (1)                                                |                                    | 1     |
-| RF6                 | I              |  Machine-actionable serialization (1)                                                          || 0     |
+| RF6                 | I              |  Machine-actionable serialization (1)                                                          || 1    |
 | RF7                 | I              | Schema Conceptual model (1)                               |                                    | 1     |
 | RF8                 | I              | Data Properties (0.5); Range and Domain (0.5)                                     |              | 1   |
 | RF9                 | I              | Object Properties (0.5); Range and Domain (0.5)                                   |              | 1   |
@@ -110,6 +110,24 @@ Overall, the schema performed well in most aspects of FAIR, reflecting the inten
 | RF12                | R              | Documentation of Modifications (1)                        |                                    | 1     |
 | RF13                | I (50%) R (50%)| Schema reuse (1)                                          |                                    | 1     |
 
+### Calculation:
+
+| Principle F | Principle A | Principle I | Principle R |
+|-------------|-------------|-------------|-------------|
+| **F = 1 + 1 + 1** | **A = 1 + 1** | **I = 1 + 1 + 1 + 1 + 0.5** | **R = 1 + 1 + 1 + 0.5** |
+| F = 3 | A = 2 | I = 4.5 | R = 3.5 |
+| PF% = (3 / 3) * 100 | PF% = (2 / 2) * 100 | PF% = (4.5 / 4.5) * 100 | PF% = (3.5 / 3.5) * 100 |
+| PF% = 100% | PF% = 100% | PF% = 100% | PF% = 100% |
+
+![chart (2)](https://github.com/user-attachments/assets/04beb1b9-4309-4b24-b9aa-07da2411380d)
+
+### Overall FAIR compliance score (OFC%): 
+
+OFC% = (92 + 100 + 55.5 + 100) / 4
+
+OFC% ≅ 87%
+
+### Comments:
 
 
 
