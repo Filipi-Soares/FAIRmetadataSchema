@@ -72,55 +72,15 @@ To validate the FAIR assessment proposed, we evaluated three metadata schemas: [
 
 ### Calculation:
 
-**Principle F**
-
-F = 1 + 0.75 + 1
-
-F = 2.75
-
-PF% = (2.75 / 3) * 100
-
-PF% ≅ 92%
-
-**Principle A**
-
-A = 1 + 1
-
-A = 2
-
-PF% = (2 / 2) * 100
-
-PF% = 100%
-
-**Principle I**
-
-I = 0 + 1 + 0.5 + 0.5 + 0.5 
-
-I = 2.5
-
-PF% = (2.5 / 4.5) * 100
-
-PF% ≅ 55.5%
-
-**Principle R**
-
-R = 1 + 1 + 1 + 0.5
-
-R = 3.5
-
-PF% = (3.5 / 3.5) * 100
-
-PF% = 100%
-
-
-### Calculation:
-
 | Principle F | Principle A | Principle I | Principle R |
 |-------------|-------------|-------------|-------------|
 | **F = 1 + 0.75 + 1** | **A = 1 + 1** | **I = 0 + 1 + 0.5 + 0.5 + 0.5** | **R = 1 + 1 + 1 + 0.5** |
 | F = 2.75 | A = 2 | I = 2.5 | R = 3.5 |
 | PF% = (2.75 / 3) * 100 | PF% = (2 / 2) * 100 | PF% = (2.5 / 4.5) * 100 | PF% = (3.5 / 3.5) * 100 |
 | PF% ≅ 92% | PF% = 100% | PF% ≅ 55.5% | PF% = 100% |
+
+![chart (2)](https://github.com/user-attachments/assets/04beb1b9-4309-4b24-b9aa-07da2411380d)
+
 
 
 
