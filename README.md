@@ -84,6 +84,7 @@ To validate the FAIR assessment proposed, we evaluated three metadata schemas: [
 ### Overall FAIR compliance score (OFC%): 
 
 OFC% = (92 + 100 + 55.5 + 100) / 4
+
 OFC% ≅ 87%
 
 
