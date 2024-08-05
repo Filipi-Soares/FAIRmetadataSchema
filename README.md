@@ -23,7 +23,7 @@ The concepts from the conceptual model representing FAIR enabling resources (FER
 | RF12      | R       | Documentation of Modifications (1)                                               |                             
 | RF13      | I (50%) R (50%) | Schema reuse (1)                                                                  |      
 
-*Table 1A – Template for calculating the FAIRness level of the Almes Core schema.*
+*Table 1A – Template for calculating the FAIRness level of metadata schemas.*
 
 Each component related to a principle was scored based on its presence (true) or absence (false). If a component is present, it contributes its full score; if absent, it contributes zero. For example, for Principle F (Findability):
 
