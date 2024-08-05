@@ -43,9 +43,8 @@ The total score for each principle is the sum of its components' scores:
 
 The fulfillment percentage for each principle (PF%) is calculated by dividing the total score (TS) by the maximum possible score (MPS) for that principle, then multiplying by 100.
 
-\[
-\text{PF\%} = \left( \frac{\text{TS}}{\text{MPS}} \right) \times 100 = \left( \frac{2}{3} \right) \times 100 = 66.67\%
-\]
+PF% = (TS / MPS) * 100 = (2 / 3) * 100 = 66.67%
+
 
 The overall FAIR compliance score (OFC%) is the average of the fulfillment percentages of all principles. The overall FAIRness score of the Almes Score schema was 91.75%:
 
