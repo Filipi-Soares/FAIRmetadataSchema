@@ -23,6 +23,6 @@ The concepts from the conceptual model representing FAIR enabling resources (FER
 | RF12      | R       | Documentation of Modifications (1)                                               |                             
 | RF13      | I (50%) R (50%) | Schema reuse (1)                                                                  |      
 
-*Template for calculating the FAIRness level of the Almes Core schema.*
+*Table 1A – Template for calculating the FAIRness level of the Almes Core schema.*
 
 
