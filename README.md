@@ -132,9 +132,47 @@ OFC% = 100%
 
 DCAT Version three is a 100% FAIR metadata schema. All the concepts included in this metrics have been found in the schema documentation. 
 
+## FAIRness assessment of the Almes Core schema
+
+| Ref. FAIR | FAIR P. | Concept present | Concept absent | Score |
+|-----------|---------|-----------------|----------------|-------|
+| RF1       | F       | Namespace (0.5); version unique identifier (0.5) |                | 1     |
+| RF2       | F       | Landing page (0.5); metadata record for humans (0.25); metadata record for machines (0.25) |                | 1     |
+| RF3       | F       |                 | Indexing in vocabulary catalog (1) | 0     |
+| RF4       | A       | URLs use universally accessible protocols (1) |                | 1     |
+| RF5       | A       | Backup (1)      |                | 1     |
+| RF6       | I       | Machine-actionable serialization (1) |                | 1     |
+| RF7       | I       | Schema Conceptual model (1) |                | 1     |
+| RF8       | I       | Data Properties (0.5); Range and Domain (0.5) |                | 1     |
+| RF9       | I       | Object Properties (0.5); Range and Domain (0.5) |                | 1     |
+| RF10      | R       | Term name (0.5); Definition (0.5) |                | 1     |
+| RF11      | R       | Open License (1) |                | 1     |
+| RF12      | R       | Documentation of Modifications (1) |                | 1     |
+| RF13      | I (50%) R (50%) | Schema reuse (1) |                | 1     |
 
 
 
+
+### Calculation:
+
+| Principle F | Principle A | Principle I | Principle R |
+|-------------|-------------|-------------|-------------|
+| **F = 1 + 1 + 0** | **A = 1 + 1** | **I = 1 + 1 + 1 + 1 + 0.5** | **R = 1 + 1 + 1 + 0.5** |
+| F = 2 | A = 2 | I = 4.5 | R = 3.5 |
+| PF% = (2 / 3) * 100 | PF% = (2 / 2) * 100 | PF% = (4.5 / 4.5) * 100 | PF% = (3.5 / 3.5) * 100 |
+| PF% ≅ 67% | PF% = 100% | PF% = 100% | PF% = 100% |
+
+![image](https://github.com/user-attachments/assets/2bb3a9bb-64cd-4de4-8ff7-1460f3d6c1d0)
+
+### Overall FAIR compliance score (OFC%): 
+
+OFC% = (67 + 100 + 100 + 100) / 4
+
+OFC% = 91.75%
+
+### Comments:
+
+The only principle that he almes core schema did not reach 100\% was principle F, due to the schema currently not being indexed by any vocabulary catalog, which is crucial for findability.
 
 
 
