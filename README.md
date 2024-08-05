@@ -50,7 +50,7 @@ The fulfillment percentage for each principle (PF%) is calculated by dividing th
 The overall FAIR compliance score (OFC%) is the average of the fulfillment percentages of all principles.
 
 ## Validation
-To validate the FAIR assessment proposed, we evaluated three metadata schemas: [Darwin Core](https://dwc.tdwg.org/), [D-CAT](https://www.w3.org/ns/dcat#), and [Almes Core](https://w3id.org/AlmesCore/). 
+To validate the FAIR assessment proposed, we evaluated three metadata schemas: [Darwin Core](https://dwc.tdwg.org/), [D-CAT](https://www.w3.org/TR/vocab-dcat-3/), and [Almes Core](https://w3id.org/AlmesCore/). 
 
 ## FAIRness assessment of the Darwin Core schema
 
@@ -90,9 +90,26 @@ OFC% ≅ 87%
 ### Comments:
 For the F principle, the standard lacks a machine-actionable serialization of the metadata record on the landing page, although it provides a very detailed record in HTML format. Regarding the I principle, the schema is not available in semantic web formats such as RDF or OWL, despite documentation suggesting how to use Darwin Core as RDF. As noted on [their page](https://dwc.tdwg.org/rdf/), "No terms defined within the Darwin Core namespace have range or domain declarations.” This omission hinders the creation of OWL or RDF serializations of the schema. Additionally, the lack of semantic annotations impedes automated data integration and interoperability across different systems, which are critical to achieving the I principle in the FAIR framework.
 
-Overall, the schema performed well in most aspects of FAIR, reflecting the intense and diligent efforts of the managing authority. This demonstrates a strong commitment to ensuring that the schema meets high standards of findability, accessibility, interoperability, and reusability. Such performance highlights the authority's dedication to maintaining and improving the quality and usability of the schema, which is crucial for supporting diverse data management and integration needs within the community. Please see the Data Availability Section for more details on how we conducted this FAIR assessment.
+Overall, the schema performed well in most aspects of FAIR, reflecting the intense and diligent efforts of the managing authority. This demonstrates a strong commitment to ensuring that the schema meets high standards of findability, accessibility, interoperability, and reusability. Such performance highlights the authority's dedication to maintaining and improving the quality and usability of the schema, which is crucial for supporting diverse data management and integration needs within the community.
 
-## FAIRness assessment of the Darwin Core schema
+## FAIRness assessment of the Data Catalog Vocabulary (DCAT) - Version 3
+
+| Ref. FAIR Principle | FAIR Principle | Concept present                                           | Concept absent                     | Score |
+|---------------------|----------------|-----------------------------------------------------------|------------------------------------|-------|
+| RF1                 | F              | Namespace (0.5); version unique identifier (0.5)          |                                    | 1     |
+| RF2                 | F              | Landing page (0.5); metadata record for humans (0.25); metadata record for machines (0.25)     | | 1  |
+| RF3                 | F              | Indexing in vocabulary catalog (1)                        |                                    | 1     |
+| RF4                 | A              | URLs use universally accessible protocols (1)             |                                    | 1     |
+| RF5                 | A              | Backup (1)                                                |                                    | 1     |
+| RF6                 | I              |  Machine-actionable serialization (1)                                                          || 0     |
+| RF7                 | I              | Schema Conceptual model (1)                               |                                    | 1     |
+| RF8                 | I              | Data Properties (0.5); Range and Domain (0.5)                                     |              | 1   |
+| RF9                 | I              | Object Properties (0.5); Range and Domain (0.5)                                   |              | 1   |
+| RF10                | R              | Term name (0.5); Definition (0.5)                         |                                    | 1     |
+| RF11                | R              | Open License (1)                                          |                                    | 1     |
+| RF12                | R              | Documentation of Modifications (1)                        |                                    | 1     |
+| RF13                | I (50%) R (50%)| Schema reuse (1)                                          |                                    | 1     |
+
 
 
 
