@@ -70,7 +70,7 @@ To validate the FAIR assessment proposed, we evaluated three metadata schemas: [
 | RF12                | R              | Documentation of Modifications (1)                        |                                    | 1     |
 | RF13                | I (50%) R (50%)| Schema reuse (1)                                          |                                    | 1     |
 
-Calculation:
+####Calculation:####
 
 **Principle F**
 
@@ -81,6 +81,8 @@ F = 2.75
 PF% = (2.75 / 3) * 100
 
 PF% ≅ 92%
+
+
 
 
 
