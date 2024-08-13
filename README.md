@@ -2,7 +2,7 @@
 
 This assessment evaluates the FAIRness of metadata schemas based on the FAIR-related concepts addressed in the paper's conceptual model. 
 
-We assessed the FAIRness level of three metadata schemas: Darwin Core, D-CAT, and Almes Core. However, this analysis was preliminary. A more detailed assessment should be performed by the authority managing these schemas.
+We assessed the FAIRness level of three metadata schemas: [Darwin Core](https://dwc.tdwg.org/list/), [D-CAT](https://www.w3.org/TR/vocab-dcat-3/), and [Almes Core](https://w3id.org/AlmesCore#). However, this analysis was preliminary. A more detailed assessment should be performed by the authority managing these schemas.
 
 ## Methodology
 The concepts from the conceptual model representing FAIR enabling resources (FERs) were associated with one of the Refined FAIR principles presented in Table 1. The FAIR principles were assessed based on the presence or absence of specific FERs, with each FER receiving a score from 0.25 to 1. The scores for each FER within a principle were then summed to calculate the total score for that principle. Details on the scores of each element are shown in Table 1A. 
